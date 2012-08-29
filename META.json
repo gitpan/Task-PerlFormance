@@ -22,6 +22,7 @@
       "runtime" : {
          "requires" : {
             "Benchmark::Perl::Formance" : "0",
+            "Benchmark::Perl::Formance::Cargo" : "0",
             "Clone" : "0",
             "Crypt::Primes" : "0",
             "DB_File" : "0",
@@ -50,7 +51,6 @@
             "URI" : "0",
             "YAML::XS" : "0",
             "forks" : "0",
-            "re::engine::LPEG" : "0",
             "re::engine::Lua" : "0",
             "re::engine::Oniguruma" : "0",
             "re::engine::Plan9" : "0",
@@ -78,7 +78,7 @@
          "web" : "http://github.com/renormalist/Task-PerlFormance"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

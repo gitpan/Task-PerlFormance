@@ -23,6 +23,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Task::PerlFormance",
   "PREREQ_PM" => {
     "Benchmark::Perl::Formance" => 0,
+    "Benchmark::Perl::Formance::Cargo" => 0,
     "Clone" => 0,
     "Crypt::Primes" => 0,
     "DB_File" => 0,
@@ -51,7 +52,6 @@ my %WriteMakefileArgs = (
     "URI" => 0,
     "YAML::XS" => 0,
     "forks" => 0,
-    "re::engine::LPEG" => 0,
     "re::engine::Lua" => 0,
     "re::engine::Oniguruma" => 0,
     "re::engine::Plan9" => 0,
@@ -59,7 +59,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

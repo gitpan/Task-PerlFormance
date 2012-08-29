@@ -1,13 +1,13 @@
 use strict;
 use warnings;
 package Task::PerlFormance;
-# git description: 902acbc
+# git description: v0.001-3-g04e4158
 
 BEGIN {
   $Task::PerlFormance::AUTHORITY = 'cpan:SCHWIGON';
 }
 {
-  $Task::PerlFormance::VERSION = '0.001';
+  $Task::PerlFormance::VERSION = '0.002';
 }
 # ABSTRACT: Max dependencies for Benchmark::Perl::Formance
 
@@ -22,7 +22,7 @@ Task::PerlFormance - Max dependencies for Benchmark::Perl::Formance
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 TASK CONTENTS
 
@@ -31,6 +31,8 @@ version 0.001
 =head3 L<forks>
 
 =head3 L<Benchmark::Perl::Formance>
+
+=head3 L<Benchmark::Perl::Formance::Cargo>
 
 =head3 L<Tapper::TestSuite::Benchmark::Perl::Formance>
 
@@ -63,8 +65,6 @@ version 0.001
 =head3 L<ExtUtils::CppGuess>
 
 =head3 L<re::engine::Lua>
-
-=head3 L<re::engine::LPEG>
 
 =head3 L<re::engine::Plan9>
 
