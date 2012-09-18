@@ -4,7 +4,7 @@
       "Steffen Schwigon <ss5@renormalist.net>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300023, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -31,11 +31,13 @@
             "Devel::Size" : "0",
             "Encode" : "0",
             "ExtUtils::CppGuess" : "0",
+            "File::ShareDir" : "0",
             "HTML::Parser" : "0",
             "HTTP::Headers" : "0",
             "Locale::US" : "0",
             "Mail::SpamAssassin" : "0",
             "Math::GMP" : "0",
+            "Math::MatrixReal" : "0",
             "Math::Primality" : "0",
             "Moose" : "0",
             "MooseX::Declare" : "0",
@@ -47,10 +49,10 @@
             "Perl::Critic" : "0",
             "Regexp::Common" : "0",
             "Tapper::TestSuite::Benchmark::Perl::Formance" : "0",
+            "Test::More" : "0",
             "Text::Balanced" : "0",
             "URI" : "0",
             "YAML::XS" : "0",
-            "forks" : "0",
             "re::engine::Lua" : "0",
             "re::engine::Oniguruma" : "0",
             "re::engine::Plan9" : "0",
@@ -78,98 +80,98 @@
          "web" : "http://github.com/renormalist/Task-PerlFormance"
       }
    },
-   "version" : "0.002",
+   "version" : "0.003",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
             "class" : "Dist::Zilla::Plugin::GatherDir",
             "name" : "@SCHWIGON/@Basic/GatherDir",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::PruneCruft",
             "name" : "@SCHWIGON/@Basic/PruneCruft",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::ManifestSkip",
             "name" : "@SCHWIGON/@Basic/ManifestSkip",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaYAML",
             "name" : "@SCHWIGON/@Basic/MetaYAML",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::License",
             "name" : "@SCHWIGON/@Basic/License",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::Readme",
             "name" : "@SCHWIGON/@Basic/Readme",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::ExtraTests",
             "name" : "@SCHWIGON/@Basic/ExtraTests",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::ExecDir",
             "name" : "@SCHWIGON/@Basic/ExecDir",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::ShareDir",
             "name" : "@SCHWIGON/@Basic/ShareDir",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::MakeMaker",
             "name" : "@SCHWIGON/@Basic/MakeMaker",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::Manifest",
             "name" : "@SCHWIGON/@Basic/Manifest",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::TestRelease",
             "name" : "@SCHWIGON/@Basic/TestRelease",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::ConfirmRelease",
             "name" : "@SCHWIGON/@Basic/ConfirmRelease",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::UploadToCPAN",
             "name" : "@SCHWIGON/@Basic/UploadToCPAN",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaConfig",
             "name" : "@SCHWIGON/MetaConfig",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaJSON",
             "name" : "@SCHWIGON/MetaJSON",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::PkgVersion",
             "name" : "@SCHWIGON/PkgVersion",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::PodSyntaxTests",
             "name" : "@SCHWIGON/PodSyntaxTests",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::NoTabsTests",
@@ -179,12 +181,12 @@
          {
             "class" : "Dist::Zilla::Plugin::PodCoverageTests",
             "name" : "@SCHWIGON/PodCoverageTests",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaResources",
             "name" : "@SCHWIGON/MetaResources",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::Authority",
@@ -204,7 +206,7 @@
          {
             "class" : "Dist::Zilla::Plugin::AutoPrereqs",
             "name" : "@SCHWIGON/AutoPrereqs",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Describe",
@@ -214,12 +216,12 @@
          {
             "class" : "Dist::Zilla::Plugin::CheckChangesHasContent",
             "name" : "@SCHWIGON/CheckChangesHasContent",
-            "version" : "0.005"
+            "version" : "0.006"
          },
          {
             "class" : "Dist::Zilla::Plugin::NextRelease",
             "name" : "@SCHWIGON/NextRelease",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::CheckFor::CorrectBranch",
@@ -229,57 +231,57 @@
          {
             "class" : "Dist::Zilla::Plugin::Git::NextVersion",
             "name" : "@SCHWIGON/Git::NextVersion",
-            "version" : "1.121820"
+            "version" : "1.122530"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Check",
             "name" : "@SCHWIGON/@Git/Check",
-            "version" : "1.121820"
+            "version" : "1.122530"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Commit",
             "name" : "@SCHWIGON/@Git/Commit",
-            "version" : "1.121820"
+            "version" : "1.122530"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Tag",
             "name" : "@SCHWIGON/@Git/Tag",
-            "version" : "1.121820"
+            "version" : "1.122530"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Push",
             "name" : "@SCHWIGON/@Git/Push",
-            "version" : "1.121820"
+            "version" : "1.122530"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",
             "name" : ":InstallModules",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",
             "name" : ":IncModules",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",
             "name" : ":TestFiles",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",
             "name" : ":ExecFiles",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",
             "name" : ":ShareFiles",
-            "version" : "4.300020"
+            "version" : "4.300023"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",
             "name" : ":MainModule",
-            "version" : "4.300020"
+            "version" : "4.300023"
          }
       ],
       "zilla" : {
@@ -287,7 +289,7 @@
          "config" : {
             "is_trial" : "0"
          },
-         "version" : "4.300020"
+         "version" : "4.300023"
       }
    },
    "x_authority" : "cpan:SCHWIGON"
