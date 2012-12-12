@@ -1,13 +1,13 @@
 use strict;
 use warnings;
 package Task::PerlFormance;
-# git description: v0.002-2-g67d8f48
+# git description: v0.003-2-g894e1ef
 
 BEGIN {
   $Task::PerlFormance::AUTHORITY = 'cpan:SCHWIGON';
 }
 {
-  $Task::PerlFormance::VERSION = '0.003';
+  $Task::PerlFormance::VERSION = '0.004';
 }
 # ABSTRACT: Max dependencies for Benchmark::Perl::Formance
 
@@ -22,9 +22,17 @@ Task::PerlFormance - Max dependencies for Benchmark::Perl::Formance
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 TASK CONTENTS
+
+=head2 cpan
+
+=head3 L<Digest::SHA1>
+
+=head3 L<Safe>
+
+=head3 L<Module::Build>
 
 =head2 perlformance
 
@@ -40,15 +48,7 @@ version 0.003
 
 =head2 SpamAssassin
 
-=head3 L<DB_File>
-
-=head3 L<Net::IP>
-
-=head3 L<Net::DNS>
-
-=head3 L<NetAddr::IP>
-
-=head3 L<HTML::Parser>
+=head3 L<AAAA::Mail::SpamAssassin>
 
 =head3 L<Mail::SpamAssassin>
 
