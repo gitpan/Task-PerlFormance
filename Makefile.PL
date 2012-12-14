@@ -55,12 +55,11 @@ my %WriteMakefileArgs = (
     "YAML::XS" => 0,
     "re::engine::Lua" => 0,
     "re::engine::Oniguruma" => 0,
-    "re::engine::Plan9" => 0,
     "re::engine::RE2" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.004",
+  "VERSION" => "0.005",
   "test" => {
     "TESTS" => "t/*.t"
   }

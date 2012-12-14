@@ -1,19 +1,18 @@
 use strict;
 use warnings;
 package Task::PerlFormance;
-# git description: v0.003-2-g894e1ef
+# git description: v0.004-2-g1444122
 
 BEGIN {
   $Task::PerlFormance::AUTHORITY = 'cpan:SCHWIGON';
 }
 {
-  $Task::PerlFormance::VERSION = '0.004';
+  $Task::PerlFormance::VERSION = '0.005';
 }
 # ABSTRACT: Max dependencies for Benchmark::Perl::Formance
 
-
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -22,7 +21,7 @@ Task::PerlFormance - Max dependencies for Benchmark::Perl::Formance
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 TASK CONTENTS
 
@@ -68,7 +67,7 @@ version 0.004
 
 =head3 L<re::engine::Lua>
 
-=head3 L<re::engine::Plan9>
+# =pkg re::engine::Plan9
 
 =head3 L<re::engine::Oniguruma>
 
@@ -134,4 +133,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
